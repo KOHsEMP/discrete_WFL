@@ -1,0 +1,36 @@
+
+dataset_name: kick
+main_dir: ../
+data_dir: ./data
+output_dir: ../output
+
+weak_cols:
+  - WheelType
+  - Model
+  - SubModel
+  - Trim
+  - Size
+  - Make
+  - AUCGUART
+  - TopThreeAmericanName
+
+sample_size: -1
+test_rate: 0.5
+test_size_for_loop: 5000
+
+arch: mlp
+hd: 500
+lr: 0.00005
+bs: 512
+ep: 100
+wd: 0.0002
+
+
+# add shell script
+
+# weaken_mode
+# partial_num
+# est_method
+# pred_loss
+# seed
+# use_train_size

@@ -1,0 +1,35 @@
+
+dataset_name: adult
+main_dir: ../
+data_dir: ./data
+output_dir: ../output
+
+weak_cols:
+  - workclass
+  - education
+  - marital-status
+  - occupation
+  - relationship
+  - race
+  - native-country
+  
+
+sample_size: -1
+test_rate: 0.5
+test_size_for_loop: 5000
+
+arch: mlp
+hd: 500
+lr: 0.00005
+bs: 512
+ep: 100
+wd: 0.0002
+
+
+# add shell script
+# seed
+# est_method
+# pred_loss
+# use_train_size
+# weaken_mode
+# partial_num
