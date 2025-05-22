@@ -1,5 +1,7 @@
 # A Unified Framework for Generalization Error Analysis of Learning with Arbitrary Discrete Weak Features
 
+This repository contains the scripts for the experiments, as presented in the paper "A Unified Framework for Generalization Error Analysis of Learning with Arbitrary Discrete Weak Features", by Kosuke Sugiyama and Masato Uchida (ICML 2025)
+ 
 ## requirements
 
 * Python: 3.9.14
